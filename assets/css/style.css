@@ -3,34 +3,9 @@
 @tailwind components;
 @tailwind utilities;*/
 
-.text-accent {
- color: #ff578b;
-}
-
-.bg-accent {
-  background-color: #ff578b;
- }
-
- .bg-accent-100 {
-  background: rgba(255, 26, 98);
-}
-
-.bg-accent:hover {
-  background: rgba(255, 26, 98);
-}
-
-a:hover {
-  color: #ff578b;
-}
-
 .btn {
     @apply px-4 py-2 bg-blue-600 text-white rounded;
   }
-
-.selected {
-  border: solid 2px;
-  border-color: #9166F6;
-}
 
 /* custom background color */
 
