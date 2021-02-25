@@ -1,0 +1,62 @@
+/*@import url("tailwind.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
+
+.text-accent {
+ color: #ff578b;
+}
+
+.bg-accent {
+  background-color: #ff578b;
+ }
+
+ .bg-accent-100 {
+  background: rgba(255, 26, 98);
+}
+
+.bg-accent:hover {
+  background: rgba(255, 26, 98);
+}
+
+a:hover {
+  color: #ff578b;
+}
+
+.btn {
+    @apply px-4 py-2 bg-blue-600 text-white rounded;
+  }
+
+.selected {
+  border: solid 2px;
+  border-color: #9166F6;
+}
+
+/* custom background color */
+
+.bg-dark-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(47, 47, 64, var(--tw-bg-opacity));
+}
+
+.bg-dark-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(35, 35, 47, var(--tw-bg-opacity));
+}
+
+.bg-dark-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(28, 28, 37, var(--tw-bg-opacity));
+}
+
+.bg-cyan-700 {
+--tw-bg-opacity: 1;
+  background-color: rgba(14, 116, 144, var(--tw-bg-opacity));
+}
+
+/* custom border color */
+
+.border-cyan-700 {
+  --tw-border-opacity: 1;
+  border-color: rgba(14, 116, 144, var(--tw-border-opacity));
+}
