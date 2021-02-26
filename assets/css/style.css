@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;*/
 
-.btn {
-    @apply px-4 py-2 bg-blue-600 text-white rounded;
-  }
-
 /* custom background color */
 
 .bg-dark-200 {
